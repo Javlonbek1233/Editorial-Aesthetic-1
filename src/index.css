@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,800&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #FF4D00;
+  --color-brand-hover: #E04300;
+  --color-brand-muted: rgba(255, 77, 0, 0.15);
+  --color-bg-dark: #050505;
+  --color-surface-card: rgba(255, 255, 255, 0.05);
+  --color-border-card: rgba(255, 255, 255, 0.1);
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #050505;
+  color: #F5F5F5;
+  font-family: var(--font-sans);
+}
+
+/* Custom editorial typography styles */
+.text-editorial-title {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.text-editorial-serif {
+  font-family: var(--font-serif);
+  line-height: 1.6;
+}
+
+.editorial-glow {
+  box-shadow: 0 0 15px rgba(255, 77, 0, 0.15);
+}
+
+/* Custom styled scrollbars for editorial look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.01);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4D00;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "VolcanoX",
+  "description": "An interactive, educational disaster simulation platform offering real-time or simulated volcanic eruptions, earthquakes, tsunamis, interactive geology maps, and dramatic cinematic visuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
